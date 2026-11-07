@@ -1,0 +1,18 @@
+{
+  "_help": "Which apps count as productive, neutral, or distracting. Names are matched to the app's name (case doesn't matter; partial matches work, e.g. 'Code' matches 'Visual Studio Code'). Apps not listed use 'default'. Your copy lives in ~/.peep/apps.json and is reloaded automatically when you save it.",
+  "productive": [
+    "Visual Studio Code", "Code", "Cursor", "PyCharm", "Xcode", "RStudio", "JupyterLab",
+    "Terminal", "iTerm2", "Warp",
+    "Microsoft Word", "Microsoft Excel", "Microsoft PowerPoint", "Pages", "Numbers", "Keynote",
+    "Preview", "Adobe Acrobat", "Skim", "Zotero", "Notion", "Obsidian", "Anki", "GoodNotes", "Notability"
+  ],
+  "neutral": [
+    "Spotify", "Music", "Finder", "Google Chrome", "Safari", "Arc", "Firefox", "Microsoft Edge",
+    "Slack", "Mail", "Calendar", "Zoom", "System Settings"
+  ],
+  "distracting": [
+    "Discord", "Messages", "WhatsApp", "Instagram", "TikTok", "YouTube", "Netflix", "TV",
+    "Steam", "Minecraft", "Roblox", "Reddit", "X", "Twitter"
+  ],
+  "default": "neutral"
+}
